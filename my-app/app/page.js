@@ -1,9 +1,26 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+import Button from "./components/Button";
+import Card from "./components/Card";
+import { AppProvider } from "./context/AppContext";
 
 export default function Home() {
-  return (
-    <h1>
+  const router = useRouter();
 
-      <button>Apply now</button>
-    </h1>
+  // fake auth
+  // localStorage.setItem("token", "mock-jwt");
+
+  return (
+    <Card>
+      <div>
+        <h1 className="text-xl mb-4">Credit Card App</h1>
+        <Button onClick={() => router.push("/apply")}>
+          Apply Now
+        </Button>
+      </div>
+
+    </Card>
+
   );
 }

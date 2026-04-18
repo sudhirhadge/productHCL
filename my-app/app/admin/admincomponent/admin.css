@@ -1,0 +1,55 @@
+.admin-panel {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.admin-panel th {
+    text-align: left;
+}
+
+.application-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+.application-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.application-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.application-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.application-table caption {
+    caption-side: top;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.h1-font {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}

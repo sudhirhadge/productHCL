@@ -4,20 +4,107 @@
         "name": "Rishi Belhekar",
         "email": "rishi@gmail.com",
         "cardType": "Platinum",
-        "status": "Approved"
+        "status": "Approved",
+        "income": 180000,
+        "creditScore": 750
     },
     {
         "id": 2,
         "name": "Bob Smith",
         "email": "bob@example.com",
         "cardType": "Gold",
-        "status": "Pending"
+        "status": "Pending",
+        "income": 250000,
+        "creditScore": 680
     },
     {
         "id": 3,
         "name": "Charlie Davis",
         "email": "charlie@example.com",
         "cardType": "Silver",
-        "status": "Rejected"
+        "status": "Rejected",
+        "income": 60000,
+        "creditScore": 580
+    },
+    {
+        "id": 4,
+        "name": "Diana Lee",
+        "email": "diana@example.com",
+        "cardType": "Platinum",
+        "status": "Approved",
+        "income": 220000,
+        "creditScore": 770
+    },
+    {
+        "id": 5,
+        "name": "Ethan Brown",
+        "email": "ethan@example.com",
+        "cardType": "Gold",
+        "status": "Approved",
+        "income": 150000,
+        "creditScore": 720
+    },
+    {
+        "id": 6,
+        "name": "Fiona Clark",
+        "email": "fiona@example.com",
+        "cardType": "Silver",
+        "status": "Pending",
+        "income": 95000,
+        "creditScore": 640
+    },
+    {
+        "id": 7,
+        "name": "George Wilson",
+        "email": "george@example.com",
+        "cardType": "Platinum",
+        "status": "Approved",
+        "income": 300000,
+        "creditScore": 800
+    },
+    {
+        "id": 8,
+        "name": "Hannah Martinez",
+        "email": "hannah@example.com",
+        "cardType": "Gold",
+        "status": "Rejected",
+        "income": 85000,
+        "creditScore": 610
+    },
+    {
+        "id": 9,
+        "name": "Ian Thompson",
+        "email": "ian@example.com",
+        "cardType": "Silver",
+        "status": "Approved",
+        "income": 120000,
+        "creditScore": 690
+    },
+    {
+        "id": 10,
+        "name": "Julia Roberts",
+        "email": "julia@example.com",
+        "cardType": "Platinum",
+        "status": "Pending",
+        "income": 200000,
+        "creditScore": 705
+    },
+    {
+        "id": 11,
+        "name": "Kevin Harris",
+        "email": "kevin@example.com",
+        "cardType": "Gold",
+        "status": "Approved",
+        "income": 175000,
+        "creditScore": 730
+    },
+    {
+        "id": 12,
+        "name": "Laura Scott",
+        "email": "laura@example.com",
+        "cardType": "Silver",
+        "status": "Rejected",
+        "income": 50000,
+        "creditScore": 560
     }
 ]

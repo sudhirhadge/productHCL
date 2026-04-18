@@ -1,9 +1,14 @@
 import React from "react";
-import Hello from "./admincomponent/Hello";
+
+//Application component
+import ApplicationList from "./admincomponent/ApplicationList";
 
 function Admin() {
     return (
-        <Hello />
+        <div className="admin-panel">
+            <ApplicationList />
+            {/* <ApplicationDetail /> */}
+        </div>
     )
 }
 

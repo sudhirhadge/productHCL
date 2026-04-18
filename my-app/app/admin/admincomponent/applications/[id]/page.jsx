@@ -9,6 +9,22 @@ function calculateCreditLimit(income) {
     else return "Subjective (case-by-case)";
 }
 
+const handleApprove = () => {
+    if (app.creditScore >= 700) {
+        setApp({ ...app, status: "Approved" });
+        alert(`Application of ${app.name} approved! Credit Score: ${app.creditScore}`);
+    } else {
+        alert(
+            `Application of ${app.name} cannot be approved. Credit Score (${app.creditScore}) is too low.`
+        );
+    }
+};
+
+const handleReject = () => {
+    setApp({ ...app, status: "Rejected" });
+    alert(`Application of ${app.name} rejected!`);
+};
+
 export default function ApplicationDetail() {
     const { id } = useParams();
     const [app, setApp] = useState(null);
@@ -49,13 +65,26 @@ export default function ApplicationDetail() {
                 <div style={{ marginTop: "20px" }}>
                     <button
                         onClick={handleApprove}
-                        style={{ marginRight: "10px", padding: "8px 16px", backgroundColor: "green", color: "white", border: "none", borderRadius: "4px" }}
+                        style={{
+                            marginRight: "10px",
+                            padding: "8px 16px",
+                            backgroundColor: "green",
+                            color: "white",
+                            border: "none",
+                            borderRadius: "4px",
+                        }}
                     >
                         Approve
                     </button>
                     <button
                         onClick={handleReject}
-                        style={{ padding: "8px 16px", backgroundColor: "red", color: "white", border: "none", borderRadius: "4px" }}
+                        style={{
+                            padding: "8px 16px",
+                            backgroundColor: "red",
+                            color: "white",
+                            border: "none",
+                            borderRadius: "4px",
+                        }}
                     >
                         Reject
                     </button>

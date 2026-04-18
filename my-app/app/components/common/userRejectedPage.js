@@ -1,13 +1,27 @@
+"use client"
 
-import React from 'react';
+import {useState, useEffect} from 'react';
+import './common.css';
 
-const userRejectedPage = () => {
+const UserRejectedPage = () => {
+    const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // This code only runs in the browser
+    const storedData = localStorage.getItem('your-key');
+    setData(storedData);
+  }, []);
+
   return (
-    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
-      <h1>you have already applied for this request on localStorage.getItem('user.appliedDate')</h1>
-      Please contact support centre.
+   <div className="status-container">
+      <h1 className="status-title">
+        You have already applied for this request on 23rd March 2026 {data}
+      </h1>
+      <p className="status-support">
+        Please contact our support centre for further assistance.
+      </p>
     </div>
   );
 };
 
-export default StoragePage;
+export default UserRejectedPage;

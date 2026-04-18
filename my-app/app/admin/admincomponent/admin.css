@@ -53,3 +53,8 @@
     font-weight: bold;
     color: #000;
 }
+
+.filter-btn {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,6 +1,9 @@
 
 export default function Home() {
   return (
-    <h1>Hellow world</h1>
+    <h1>
+
+      <button>Apply now</button>
+    </h1>
   );
 }

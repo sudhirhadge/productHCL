@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Rishi Belhekar",
+        "email": "rishi@gmail.com",
+        "cardType": "Platinum",
+        "status": "Approved"
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob@example.com",
+        "cardType": "Gold",
+        "status": "Pending"
+    },
+    {
+        "id": 3,
+        "name": "Charlie Davis",
+        "email": "charlie@example.com",
+        "cardType": "Silver",
+        "status": "Rejected"
+    }
+]

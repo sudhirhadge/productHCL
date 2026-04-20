@@ -5,7 +5,7 @@ mainApproach
 We kept things simple and focused on showing the full flow end-to-end.
 
 User can:
-Apply for a credit card
+ Apply for a credit card
 System checks basic rules (age, duplicate application)
 User can track status using application ID
 
